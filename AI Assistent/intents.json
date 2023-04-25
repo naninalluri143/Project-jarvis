@@ -1,0 +1,126 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello","hii","hey","hai","wake up","jarvis"],
+            "responses":[
+                "Hello sir", "how are you sir.", "always for you sir"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","good bye", "see you later", "sleep", "exit"],
+            "responses":[
+                "bye sir", "at your service sir.", "it will be nice to meet you again",
+                "hope will see you later", "good bye sir."
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","are you fine", "are you good", "how is your day"],
+            "responses":[
+                "Fine sir.", "iam alright sir.", "iam fine sir",
+                "i am fine."
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":["your name","who are you", "what is your name"],
+            "responses":[
+                "jarvis", "my name is jarvis", "iam an A I assistent"
+            ]
+        },
+        {
+            "tag":"personal",
+            "patterns":["what is my name","who iam", "can you know me", "you know who iam"],
+            "responses":[
+                "your name is uday", "you are graduated student", "yes you are my master",
+                "yes sir i know you"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["what is time","what is the time now", "what's the time", "time"],
+            "responses":[
+                "time is"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["today date","what's the date", "date"],
+            "responses":[
+                "date is"
+            ]
+        },
+        {
+            "tag":"screen shot",
+            "patterns":["take screen shot","snap the screen", "screen shot"],
+            "responses":[
+                "screen shot is saved."
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["what is the day","day", "what's the day"],
+            "responses":[
+                "today is"
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is ","about", "what is", "wikipedia"],
+            "responses":[
+                "wikipedia"
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":["google", "search"],
+            "responses":[
+                "google"
+            ]
+        },
+        {
+            "tag":"github",
+            "patterns":["open github", "github"],
+            "responses":[
+                "opening github"
+            ]
+        },
+        {
+            "tag":"w3 schools",
+            "patterns":["open w3 schools", "w3 schools"],
+            "responses":[
+                "opening github"
+            ]
+        },
+        {
+            "tag":"songs",
+            "patterns":["play songs", "play some music", "songs"],
+            "responses":[
+                "Ok sir"
+            ]
+        },
+        {
+            "tag":"any desk",
+            "patterns":["anydesk", "open anydesk"],
+            "responses":[
+                "Ok sir, wait a second"
+            ]
+        },
+        {
+            "tag":"zoom",
+            "patterns":["zoom", "open zoom"],
+            "responses":[
+                "Ok sir"
+            ]
+        },
+        {
+            "tag":"vpn",
+            "patterns":["vpn", "open vpn"],
+            "responses":[
+                "Ok sir, wait a second"
+            ]
+        }
+    ]
+}
